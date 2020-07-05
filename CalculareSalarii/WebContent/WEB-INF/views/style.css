@@ -1,0 +1,154 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:#DCDCDC;
+	font-family:times new roman;
+}
+
+header{
+	background-color:white;
+	text-align:Center;
+	padding:20px 0px;
+	box-shadow:0px 2px 10px black;
+}
+
+#navigare ul li{
+	display:inline-block;
+	width:270px;
+	text-decoration:none;
+}
+
+#navigare ul li a{
+	color:#696969;
+	text-decoration:none;
+}
+
+.salariu{
+	background-color:black !important;
+}
+#continut{
+	width:80%;
+	background-color:white;
+	margin:30px auto;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+#continut_salariu{
+	display:flex;
+	flex:1;
+	text-align:left;
+}
+
+#continut2 h3{
+	margin:0px;
+}
+#continut1{
+	box-sizing:border-box;
+	padding:50px 40px;
+	flex-basis:35%;
+}
+
+label{
+	width:180px;
+	display:inline-block;
+}
+
+input, select,option{
+	width:100%;
+	height:30px;
+	background-color:#d3d3d3;
+	margin-top:8px;
+}
+
+input:focus, select:focus{
+	border-size:3px;
+	background-color:#b2b2ff;
+}
+
+input[type="submit"]{
+	width:130px;
+	background-color:red;
+	margin:40px 0px;
+	height:40px;
+	color:white;
+	font-size:15px;
+}
+
+h5, h4{
+	margin:0px;
+	color:#696969;
+	
+}
+
+#continut2t{
+	flex-basis:65%;
+	padding:50px 40px;
+	box-sizing:border-box;
+}
+
+#continut_net{
+	flex-basis:80%;margin:0px auto;
+}
+#continut2 h3, #continut_net h3{
+	text-align:Center;
+}
+table{
+	margin-top:40px;
+	border-spacing:2px;
+	width:100%;
+	color:white;
+}
+table td{
+	padding:10px 15px;
+}
+
+.culori1{
+	background-color:#00004c;
+	text-align:Center;
+	padding:20px 15px;
+}
+
+#net,#sal_brut{
+	background-color:#4cad4c;
+}
+
+#taxe{
+	background-color:#9999ff;
+}
+
+#cam, #complet{
+	background-color:#4c4cff;
+}
+.patrat{
+	border-top:1px solid black;
+	border-left:9px solid black;
+	border-right:9px solid black;
+}
+#total_taxe{
+	background-color:#ff4c4c;
+}
+
+#salariu{
+	border-color:#4cad4c;
+}
+
+#angajat{
+	border-color:#9999ff;
+}
+
+#angajator{
+	border-color:#4c4cff;
+}
+
+#stat{
+	border-color:#ff4c4c;
+}
+
+#patrat{
+	margin-top:20px;
+	text-align:center;
+}
+
+
+#patrat span
